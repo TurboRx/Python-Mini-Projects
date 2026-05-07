@@ -15,3 +15,7 @@ is_member = True
 is weekend = False
 
 discount = 0
+if is_member:
+    discount = 3
+    print('User qualifies for membership discount')
+    
