@@ -8,7 +8,8 @@ if age > 17:
 
 if age >= 21:
     print('User is eligible for Evening shows')
-else print('User is not eligible for Evening shows')
+else:
+    print('User is not eligible for Evening shows')
 
 is_member = False
 is_weekend = False
@@ -32,5 +33,4 @@ else:
     print('No extra charges will be applied')
     
 print('Extra charges:', extra_charges)
-
  
