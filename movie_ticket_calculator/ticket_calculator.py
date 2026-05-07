@@ -38,3 +38,7 @@ if age >= 21:
     print('Ticket booking condition satisfied')
 else:
     print('Ticket booking failed due to restrictions')
+    
+if age >= 21 or (age >= 18 and show_time != 'Evening'):
+    
+    
