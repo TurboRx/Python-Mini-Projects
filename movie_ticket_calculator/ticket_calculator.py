@@ -44,8 +44,9 @@ if age >= 21 or age >= 18 and (show_time != 'Evening' or is_member):
     service_charges = 0
     if seat_type == 'Premium':
         service_charges = 5
-    else:
-        service_charges = 1
+    elif: seat_type == 'Gold':
+          service_charges = 3
+    else: service_charges = 1
 else:
-    print('Ticket booking failed due to restrictions')
+    print('Service_charges:', service_charges)
 
